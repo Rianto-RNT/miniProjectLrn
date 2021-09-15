@@ -9,18 +9,12 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       option_name: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING(50),
+        allowNull: false,
       },
       option_value: {
-        type: Sequelize.STRING
-      },
-      createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-      updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.STRING(50),
+        allowNull:true,
       }
     });
   },
