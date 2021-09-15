@@ -14,3 +14,11 @@
 
  ## Help
  npx sequelize --help
+
+ ## Link
+
+ http://localhost:3000/admin/dashboard
+
+ http://localhost:3000/admin/create-book
+ 
+ http://localhost:3000/admin/list-book
