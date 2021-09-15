@@ -1,5 +1,5 @@
  
- ## Package need to install
+  ## Package need to install
 
  ## Make folder config, migrations, models,
 
@@ -12,6 +12,8 @@
  ## undo migrate data to database
  npx sequelize db:migrate:undo:all
 
+ ## start project server at PORT 3000
+    using terminal, Go to project file directory and type: nodemon then hit enter
  ## Help
  npx sequelize --help
 
